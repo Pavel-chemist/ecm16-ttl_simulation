@@ -2032,7 +2032,7 @@
           <string>Clk</string>
         </entry>
       </elementAttributes>
-      <pos x="1780" y="-520"/>
+      <pos x="1580" y="-500"/>
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
@@ -5211,12 +5211,12 @@
       <elementName>Memory_Pointers.dig</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>MemPointers</string>
-        </entry>
-        <entry>
           <string>shapeType</string>
           <shapeType>LAYOUT</shapeType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>MemPointers</string>
         </entry>
       </elementAttributes>
       <pos x="2120" y="960"/>
@@ -9439,6 +9439,35 @@
       <elementAttributes/>
       <pos x="4820" y="560"/>
     </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>clk stop</string>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Stops claock propagation to cpu</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1440" y="-540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="1480" y="-540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1640" y="-540"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -9526,7 +9555,7 @@
       <p2 x="2180" y="-520"/>
     </wire>
     <wire>
-      <p1 x="1780" y="-520"/>
+      <p1 x="1720" y="-520"/>
       <p2 x="1800" y="-520"/>
     </wire>
     <wire>
@@ -9764,6 +9793,14 @@
     <wire>
       <p1 x="2460" y="-540"/>
       <p2 x="2480" y="-540"/>
+    </wire>
+    <wire>
+      <p1 x="1440" y="-540"/>
+      <p2 x="1480" y="-540"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="-540"/>
+      <p2 x="1640" y="-540"/>
     </wire>
     <wire>
       <p1 x="2960" y="1180"/>
@@ -10824,6 +10861,10 @@
     <wire>
       <p1 x="2500" y="-500"/>
       <p2 x="2820" y="-500"/>
+    </wire>
+    <wire>
+      <p1 x="1580" y="-500"/>
+      <p2 x="1640" y="-500"/>
     </wire>
     <wire>
       <p1 x="5020" y="500"/>
