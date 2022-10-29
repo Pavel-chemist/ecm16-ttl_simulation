@@ -1061,7 +1061,7 @@ If multi-word transfer - substitution of register address</string>
           <string>ld_cnt</string>
         </entry>
       </elementAttributes>
-      <pos x="2760" y="740"/>
+      <pos x="2780" y="740"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -2849,6 +2849,24 @@ If multi-word transfer - substitution of register address</string>
       </elementAttributes>
       <pos x="-400" y="-380"/>
     </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Prefix_ind</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="-1060"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -4129,7 +4147,7 @@ If multi-word transfer - substitution of register address</string>
     </wire>
     <wire>
       <p1 x="2740" y="740"/>
-      <p2 x="2760" y="740"/>
+      <p2 x="2780" y="740"/>
     </wire>
     <wire>
       <p1 x="360" y="740"/>
@@ -4458,6 +4476,10 @@ If multi-word transfer - substitution of register address</string>
     <wire>
       <p1 x="1320" y="2640"/>
       <p2 x="1320" y="2700"/>
+    </wire>
+    <wire>
+      <p1 x="1320" y="-1060"/>
+      <p2 x="1320" y="-980"/>
     </wire>
     <wire>
       <p1 x="2600" y="540"/>

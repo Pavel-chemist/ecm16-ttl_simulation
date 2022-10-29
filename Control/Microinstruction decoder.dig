@@ -4819,7 +4819,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>i5</string>
+          <string>i8</string>
         </entry>
       </elementAttributes>
       <pos x="7180" y="-940"/>
@@ -4829,11 +4829,11 @@
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[388]/elementAttributes/entry/rotation"/>
+          <rotation rotation="2"/>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>i6</string>
+          <string>i9</string>
         </entry>
       </elementAttributes>
       <pos x="7180" y="-900"/>
@@ -4843,11 +4843,11 @@
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[388]/elementAttributes/entry/rotation"/>
+          <rotation rotation="2"/>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>i7</string>
+          <string>iA</string>
         </entry>
       </elementAttributes>
       <pos x="7180" y="-860"/>
