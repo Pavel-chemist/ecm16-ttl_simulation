@@ -834,19 +834,18 @@ when interrupt, EINT is staggered with ALU op</string>
       <elementAttributes>
         <entry>
           <string>Description</string>
-          <string>Instruction modified by sequencer:
-If multi-word transfer - substitution of register address</string>
+          <string>Source address modified by sequencer</string>
         </entry>
         <entry>
           <string>Label</string>
-          <string>Instr_mod</string>
+          <string>src_mod</string>
         </entry>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>4</int>
         </entry>
       </elementAttributes>
-      <pos x="2940" y="-900"/>
+      <pos x="2940" y="-920"/>
     </visualElement>
     <visualElement>
       <elementName>MultiWordEnabler.dig</elementName>
@@ -942,7 +941,7 @@ If multi-word transfer - substitution of register address</string>
           <string>last</string>
         </entry>
       </elementAttributes>
-      <pos x="1440" y="-940"/>
+      <pos x="1540" y="-960"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2508,7 +2507,7 @@ If multi-word transfer - substitution of register address</string>
         </entry>
         <entry>
           <string>Label</string>
-          <string>LD/ST direct state</string>
+          <string>LDd/STd state</string>
         </entry>
       </elementAttributes>
       <pos x="1240" y="2700"/>
@@ -2865,7 +2864,40 @@ If multi-word transfer - substitution of register address</string>
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="1320" y="-1060"/>
+      <pos x="1360" y="-1060"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>R</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1200" y="-960"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Destination address modified by sequencer:
+also used as source address for Stores</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>dest_mod</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="2940" y="-880"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -3418,16 +3450,16 @@ If multi-word transfer - substitution of register address</string>
       <p2 x="2760" y="1860"/>
     </wire>
     <wire>
+      <p1 x="1520" y="-840"/>
+      <p2 x="2940" y="-840"/>
+    </wire>
+    <wire>
       <p1 x="660" y="-840"/>
       <p2 x="680" y="-840"/>
     </wire>
     <wire>
       <p1 x="1080" y="-840"/>
       <p2 x="1100" y="-840"/>
-    </wire>
-    <wire>
-      <p1 x="2880" y="-840"/>
-      <p2 x="2940" y="-840"/>
     </wire>
     <wire>
       <p1 x="1200" y="-840"/>
@@ -3560,10 +3592,6 @@ If multi-word transfer - substitution of register address</string>
     <wire>
       <p1 x="1600" y="1880"/>
       <p2 x="1620" y="1880"/>
-    </wire>
-    <wire>
-      <p1 x="1420" y="-860"/>
-      <p2 x="2880" y="-860"/>
     </wire>
     <wire>
       <p1 x="1000" y="-860"/>
@@ -3734,6 +3762,10 @@ If multi-word transfer - substitution of register address</string>
       <p2 x="1220" y="-880"/>
     </wire>
     <wire>
+      <p1 x="1520" y="-880"/>
+      <p2 x="2940" y="-880"/>
+    </wire>
+    <wire>
       <p1 x="3840" y="880"/>
       <p2 x="3940" y="880"/>
     </wire>
@@ -3812,10 +3844,6 @@ If multi-word transfer - substitution of register address</string>
     <wire>
       <p1 x="2000" y="1920"/>
       <p2 x="3840" y="1920"/>
-    </wire>
-    <wire>
-      <p1 x="1420" y="-900"/>
-      <p2 x="2940" y="-900"/>
     </wire>
     <wire>
       <p1 x="760" y="-900"/>
@@ -3898,6 +3926,10 @@ If multi-word transfer - substitution of register address</string>
       <p2 x="3780" y="660"/>
     </wire>
     <wire>
+      <p1 x="1520" y="-920"/>
+      <p2 x="2940" y="-920"/>
+    </wire>
+    <wire>
       <p1 x="1160" y="-920"/>
       <p2 x="1220" y="-920"/>
     </wire>
@@ -3962,10 +3994,6 @@ If multi-word transfer - substitution of register address</string>
       <p2 x="3660" y="680"/>
     </wire>
     <wire>
-      <p1 x="1420" y="-940"/>
-      <p2 x="1440" y="-940"/>
-    </wire>
-    <wire>
       <p1 x="1200" y="-940"/>
       <p2 x="1220" y="-940"/>
     </wire>
@@ -3996,6 +4024,14 @@ If multi-word transfer - substitution of register address</string>
     <wire>
       <p1 x="680" y="1980"/>
       <p2 x="740" y="1980"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="-960"/>
+      <p2 x="1540" y="-960"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="-960"/>
+      <p2 x="1220" y="-960"/>
     </wire>
     <wire>
       <p1 x="500" y="2240"/>
@@ -4478,10 +4514,6 @@ If multi-word transfer - substitution of register address</string>
       <p2 x="1320" y="2700"/>
     </wire>
     <wire>
-      <p1 x="1320" y="-1060"/>
-      <p2 x="1320" y="-980"/>
-    </wire>
-    <wire>
       <p1 x="2600" y="540"/>
       <p2 x="2600" y="560"/>
     </wire>
@@ -4582,10 +4614,6 @@ If multi-word transfer - substitution of register address</string>
       <p2 x="1600" y="1640"/>
     </wire>
     <wire>
-      <p1 x="2880" y="-860"/>
-      <p2 x="2880" y="-840"/>
-    </wire>
-    <wire>
       <p1 x="3140" y="800"/>
       <p2 x="3140" y="820"/>
     </wire>
@@ -4600,6 +4628,10 @@ If multi-word transfer - substitution of register address</string>
     <wire>
       <p1 x="1100" y="-880"/>
       <p2 x="1100" y="-840"/>
+    </wire>
+    <wire>
+      <p1 x="1360" y="-1060"/>
+      <p2 x="1360" y="-980"/>
     </wire>
     <wire>
       <p1 x="2640" y="1320"/>
