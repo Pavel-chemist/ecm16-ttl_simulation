@@ -2808,7 +2808,7 @@
           <string>L5</string>
         </entry>
       </elementAttributes>
-      <pos x="3320" y="1280"/>
+      <pos x="3280" y="1320"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7056,7 +7056,7 @@
         </entry>
         <entry>
           <string>Data</string>
-          <data>88f1,891f,520,3400</data>
+          <data>8814,5000,f,4f00,f,8b1f,7303,6703,0,0,1f,f000,0,0,0,14</data>
         </entry>
         <entry>
           <string>lastDataFile</string>
@@ -9518,7 +9518,12 @@
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>L1</string>
+        </entry>
+      </elementAttributes>
       <pos x="4800" y="-80"/>
     </visualElement>
     <visualElement>
@@ -9548,7 +9553,12 @@
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>L5</string>
+        </entry>
+      </elementAttributes>
       <pos x="4800" y="160"/>
     </visualElement>
     <visualElement>
@@ -9799,6 +9809,40 @@
         </entry>
       </elementAttributes>
       <pos x="1840" y="-200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>bus</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="4280" y="-220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>gpr7_latch</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2100" y="-180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Delay</elementName>
+      <elementAttributes>
+        <entry>
+          <string>delayTime</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="3300" y="1320"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -10315,6 +10359,14 @@
       <p2 x="1760" y="1320"/>
     </wire>
     <wire>
+      <p1 x="3340" y="1320"/>
+      <p2 x="3360" y="1320"/>
+    </wire>
+    <wire>
+      <p1 x="3280" y="1320"/>
+      <p2 x="3300" y="1320"/>
+    </wire>
+    <wire>
       <p1 x="2500" y="-300"/>
       <p2 x="2820" y="-300"/>
     </wire>
@@ -10421,6 +10473,10 @@
     <wire>
       <p1 x="1860" y="-180"/>
       <p2 x="1900" y="-180"/>
+    </wire>
+    <wire>
+      <p1 x="2080" y="-180"/>
+      <p2 x="2100" y="-180"/>
     </wire>
     <wire>
       <p1 x="4500" y="180"/>
@@ -10688,11 +10744,15 @@
     </wire>
     <wire>
       <p1 x="2660" y="-200"/>
-      <p2 x="5340" y="-200"/>
+      <p2 x="4220" y="-200"/>
     </wire>
     <wire>
-      <p1 x="2040" y="-200"/>
+      <p1 x="2000" y="-200"/>
       <p2 x="2260" y="-200"/>
+    </wire>
+    <wire>
+      <p1 x="4220" y="-200"/>
+      <p2 x="5340" y="-200"/>
     </wire>
     <wire>
       <p1 x="4640" y="840"/>
@@ -10949,6 +11009,10 @@
     <wire>
       <p1 x="1920" y="1240"/>
       <p2 x="2080" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="4220" y="-220"/>
+      <p2 x="4280" y="-220"/>
     </wire>
     <wire>
       <p1 x="4880" y="860"/>
@@ -11483,8 +11547,16 @@
       <p2 x="3360" y="80"/>
     </wire>
     <wire>
+      <p1 x="3360" y="1280"/>
+      <p2 x="3360" y="1320"/>
+    </wire>
+    <wire>
       <p1 x="2080" y="80"/>
       <p2 x="2080" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="2080" y="-180"/>
+      <p2 x="2080" y="-160"/>
     </wire>
     <wire>
       <p1 x="2340" y="320"/>
@@ -11737,6 +11809,10 @@
     <wire>
       <p1 x="4220" y="-480"/>
       <p2 x="4220" y="-400"/>
+    </wire>
+    <wire>
+      <p1 x="4220" y="-220"/>
+      <p2 x="4220" y="-200"/>
     </wire>
     <wire>
       <p1 x="2940" y="80"/>
@@ -12027,6 +12103,10 @@
       <p2 x="2000" y="160"/>
     </wire>
     <wire>
+      <p1 x="2000" y="-200"/>
+      <p2 x="2000" y="-160"/>
+    </wire>
+    <wire>
       <p1 x="4560" y="840"/>
       <p2 x="4560" y="940"/>
     </wire>
@@ -12161,10 +12241,6 @@
     <wire>
       <p1 x="2040" y="460"/>
       <p2 x="2040" y="620"/>
-    </wire>
-    <wire>
-      <p1 x="2040" y="-200"/>
-      <p2 x="2040" y="-160"/>
     </wire>
     <wire>
       <p1 x="3320" y="40"/>

@@ -3782,6 +3782,20 @@ All instructions with immediate 8-bit values</string>
       </elementAttributes>
       <pos x="2260" y="1340"/>
     </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>gpr7_latch</string>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2160" y="100"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -3891,6 +3905,10 @@ All instructions with immediate 8-bit values</string>
     <wire>
       <p1 x="400" y="2580"/>
       <p2 x="420" y="2580"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="1300"/>
+      <p2 x="2160" y="1300"/>
     </wire>
     <wire>
       <p1 x="1240" y="-280"/>
@@ -4866,6 +4884,10 @@ All instructions with immediate 8-bit values</string>
     </wire>
     <wire>
       <p1 x="700" y="1260"/>
+      <p2 x="900" y="1260"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="1260"/>
       <p2 x="940" y="1260"/>
     </wire>
     <wire>
@@ -4947,6 +4969,10 @@ All instructions with immediate 8-bit values</string>
     <wire>
       <p1 x="1540" y="-280"/>
       <p2 x="1540" y="-240"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="1260"/>
+      <p2 x="900" y="1300"/>
     </wire>
     <wire>
       <p1 x="1160" y="-400"/>
@@ -5403,6 +5429,10 @@ All instructions with immediate 8-bit values</string>
     <wire>
       <p1 x="880" y="340"/>
       <p2 x="880" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="2160" y="100"/>
+      <p2 x="2160" y="1300"/>
     </wire>
     <wire>
       <p1 x="2420" y="440"/>
