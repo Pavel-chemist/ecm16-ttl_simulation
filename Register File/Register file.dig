@@ -90,16 +90,6 @@
       <pos x="860" y="-80"/>
     </visualElement>
     <visualElement>
-      <elementName>Clock</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Clk</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-540" y="580"/>
-    </visualElement>
-    <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
@@ -111,7 +101,7 @@
           <string>L1</string>
         </entry>
       </elementAttributes>
-      <pos x="-540" y="620"/>
+      <pos x="-540" y="700"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -279,29 +269,14 @@ All instructions with immediate 8-bit values</string>
       <pos x="80" y="1560"/>
     </visualElement>
     <visualElement>
-      <elementName>7400.dig</elementName>
-      <elementAttributes/>
-      <pos x="-120" y="580"/>
-    </visualElement>
-    <visualElement>
       <elementName>VDD</elementName>
       <elementAttributes/>
       <pos x="0" y="1440"/>
     </visualElement>
     <visualElement>
-      <elementName>VDD</elementName>
-      <elementAttributes/>
-      <pos x="0" y="560"/>
-    </visualElement>
-    <visualElement>
       <elementName>Ground</elementName>
       <elementAttributes/>
       <pos x="-120" y="1760"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Ground</elementName>
-      <elementAttributes/>
-      <pos x="-120" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -2580,7 +2555,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[185]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[181]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="900" y="2500"/>
@@ -2598,7 +2573,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[185]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[181]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="900" y="2540"/>
@@ -2616,7 +2591,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[185]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[181]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="900" y="2580"/>
@@ -2634,7 +2609,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[185]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[181]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="900" y="2620"/>
@@ -2652,7 +2627,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[185]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[181]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="900" y="2660"/>
@@ -2670,7 +2645,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[185]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[181]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="900" y="2700"/>
@@ -2743,7 +2718,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[194]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[190]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1320" y="2460"/>
@@ -2761,7 +2736,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[194]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[190]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1320" y="2500"/>
@@ -2779,7 +2754,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[194]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[190]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1320" y="2540"/>
@@ -2797,7 +2772,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[194]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[190]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1320" y="2580"/>
@@ -2815,7 +2790,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[194]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[190]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1320" y="2620"/>
@@ -2833,7 +2808,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[194]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[190]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1320" y="2660"/>
@@ -2851,7 +2826,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[194]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[190]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1320" y="2700"/>
@@ -2924,7 +2899,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[204]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[200]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1380" y="2460"/>
@@ -2942,7 +2917,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[204]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[200]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1380" y="2500"/>
@@ -2960,7 +2935,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[204]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[200]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1380" y="2540"/>
@@ -2978,7 +2953,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[204]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[200]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1380" y="2580"/>
@@ -2996,7 +2971,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[204]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[200]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1380" y="2620"/>
@@ -3014,7 +2989,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[204]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[200]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1380" y="2660"/>
@@ -3032,7 +3007,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[204]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[200]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1380" y="2700"/>
@@ -3351,7 +3326,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[237]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[233]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1440" y="2500"/>
@@ -3369,7 +3344,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[237]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[233]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1440" y="2540"/>
@@ -3387,7 +3362,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[237]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[233]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1440" y="2580"/>
@@ -3405,7 +3380,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[237]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[233]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1440" y="2620"/>
@@ -3423,7 +3398,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[237]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[233]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1440" y="2660"/>
@@ -3441,7 +3416,7 @@ All instructions with immediate 8-bit values</string>
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[237]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[233]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1440" y="2700"/>
@@ -3593,7 +3568,7 @@ All instructions with immediate 8-bit values</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[252]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[248]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -3776,22 +3751,12 @@ All instructions with immediate 8-bit values</string>
       <elementName>Out</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>Reg_write</string>
+          <string>rotation</string>
+          <rotation rotation="1"/>
         </entry>
-      </elementAttributes>
-      <pos x="2260" y="1340"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
         <entry>
           <string>Label</string>
           <string>gpr7_latch</string>
-        </entry>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
         </entry>
       </elementAttributes>
       <pos x="2160" y="100"/>
@@ -3853,10 +3818,6 @@ All instructions with immediate 8-bit values</string>
     <wire>
       <p1 x="420" y="780"/>
       <p2 x="480" y="780"/>
-    </wire>
-    <wire>
-      <p1 x="-40" y="780"/>
-      <p2 x="0" y="780"/>
     </wire>
     <wire>
       <p1 x="0" y="2060"/>
@@ -4063,10 +4024,6 @@ All instructions with immediate 8-bit values</string>
       <p2 x="940" y="820"/>
     </wire>
     <wire>
-      <p1 x="-140" y="820"/>
-      <p2 x="-120" y="820"/>
-    </wire>
-    <wire>
       <p1 x="880" y="1080"/>
       <p2 x="940" y="1080"/>
     </wire>
@@ -4099,10 +4056,6 @@ All instructions with immediate 8-bit values</string>
       <p2 x="-60" y="2620"/>
     </wire>
     <wire>
-      <p1 x="360" y="1340"/>
-      <p2 x="2260" y="1340"/>
-    </wire>
-    <wire>
       <p1 x="1220" y="320"/>
       <p2 x="1440" y="320"/>
     </wire>
@@ -4125,10 +4078,6 @@ All instructions with immediate 8-bit values</string>
     <wire>
       <p1 x="540" y="580"/>
       <p2 x="800" y="580"/>
-    </wire>
-    <wire>
-      <p1 x="-540" y="580"/>
-      <p2 x="-120" y="580"/>
     </wire>
     <wire>
       <p1 x="760" y="840"/>
@@ -4307,24 +4256,8 @@ All instructions with immediate 8-bit values</string>
       <p2 x="820" y="620"/>
     </wire>
     <wire>
-      <p1 x="-540" y="620"/>
-      <p2 x="-360" y="620"/>
-    </wire>
-    <wire>
-      <p1 x="-40" y="620"/>
-      <p2 x="0" y="620"/>
-    </wire>
-    <wire>
-      <p1 x="100" y="620"/>
+      <p1 x="-300" y="620"/>
       <p2 x="420" y="620"/>
-    </wire>
-    <wire>
-      <p1 x="-360" y="620"/>
-      <p2 x="-120" y="620"/>
-    </wire>
-    <wire>
-      <p1 x="-300" y="880"/>
-      <p2 x="100" y="880"/>
     </wire>
     <wire>
       <p1 x="540" y="2420"/>
@@ -4511,14 +4444,6 @@ All instructions with immediate 8-bit values</string>
       <p2 x="420" y="660"/>
     </wire>
     <wire>
-      <p1 x="-120" y="660"/>
-      <p2 x="-40" y="660"/>
-    </wire>
-    <wire>
-      <p1 x="-40" y="660"/>
-      <p2 x="0" y="660"/>
-    </wire>
-    <wire>
       <p1 x="300" y="2460"/>
       <p2 x="420" y="2460"/>
     </wire>
@@ -4635,22 +4560,6 @@ All instructions with immediate 8-bit values</string>
       <p2 x="2420" y="440"/>
     </wire>
     <wire>
-      <p1 x="0" y="1980"/>
-      <p2 x="20" y="1980"/>
-    </wire>
-    <wire>
-      <p1 x="540" y="1980"/>
-      <p2 x="560" y="1980"/>
-    </wire>
-    <wire>
-      <p1 x="400" y="1980"/>
-      <p2 x="420" y="1980"/>
-    </wire>
-    <wire>
-      <p1 x="-140" y="1980"/>
-      <p2 x="-120" y="1980"/>
-    </wire>
-    <wire>
       <p1 x="540" y="700"/>
       <p2 x="760" y="700"/>
     </wire>
@@ -4667,16 +4576,28 @@ All instructions with immediate 8-bit values</string>
       <p2 x="1440" y="700"/>
     </wire>
     <wire>
-      <p1 x="0" y="700"/>
-      <p2 x="360" y="700"/>
+      <p1 x="-540" y="700"/>
+      <p2 x="-360" y="700"/>
     </wire>
     <wire>
-      <p1 x="-140" y="700"/>
-      <p2 x="-120" y="700"/>
-    </wire>
-    <wire>
-      <p1 x="360" y="700"/>
+      <p1 x="-360" y="700"/>
       <p2 x="420" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="0" y="1980"/>
+      <p2 x="20" y="1980"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="1980"/>
+      <p2 x="560" y="1980"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="1980"/>
+      <p2 x="420" y="1980"/>
+    </wire>
+    <wire>
+      <p1 x="-140" y="1980"/>
+      <p2 x="-120" y="1980"/>
     </wire>
     <wire>
       <p1 x="1080" y="960"/>
@@ -4749,10 +4670,6 @@ All instructions with immediate 8-bit values</string>
     <wire>
       <p1 x="1260" y="720"/>
       <p2 x="1440" y="720"/>
-    </wire>
-    <wire>
-      <p1 x="-140" y="720"/>
-      <p2 x="-40" y="720"/>
     </wire>
     <wire>
       <p1 x="-520" y="2260"/>
@@ -4841,14 +4758,6 @@ All instructions with immediate 8-bit values</string>
     <wire>
       <p1 x="1280" y="740"/>
       <p2 x="1440" y="740"/>
-    </wire>
-    <wire>
-      <p1 x="-40" y="740"/>
-      <p2 x="0" y="740"/>
-    </wire>
-    <wire>
-      <p1 x="-140" y="740"/>
-      <p2 x="-120" y="740"/>
     </wire>
     <wire>
       <p1 x="880" y="2540"/>
@@ -4951,10 +4860,6 @@ All instructions with immediate 8-bit values</string>
       <p2 x="0" y="2340"/>
     </wire>
     <wire>
-      <p1 x="0" y="560"/>
-      <p2 x="0" y="580"/>
-    </wire>
-    <wire>
       <p1 x="0" y="1440"/>
       <p2 x="0" y="1460"/>
     </wire>
@@ -5009,18 +4914,6 @@ All instructions with immediate 8-bit values</string>
     <wire>
       <p1 x="-140" y="2480"/>
       <p2 x="-140" y="2500"/>
-    </wire>
-    <wire>
-      <p1 x="-140" y="700"/>
-      <p2 x="-140" y="720"/>
-    </wire>
-    <wire>
-      <p1 x="-140" y="740"/>
-      <p2 x="-140" y="820"/>
-    </wire>
-    <wire>
-      <p1 x="-140" y="720"/>
-      <p2 x="-140" y="740"/>
     </wire>
     <wire>
       <p1 x="780" y="660"/>
@@ -5159,18 +5052,6 @@ All instructions with immediate 8-bit values</string>
       <p2 x="420" y="1760"/>
     </wire>
     <wire>
-      <p1 x="-40" y="720"/>
-      <p2 x="-40" y="740"/>
-    </wire>
-    <wire>
-      <p1 x="-40" y="620"/>
-      <p2 x="-40" y="660"/>
-    </wire>
-    <wire>
-      <p1 x="-40" y="740"/>
-      <p2 x="-40" y="780"/>
-    </wire>
-    <wire>
       <p1 x="40" y="1580"/>
       <p2 x="40" y="1620"/>
     </wire>
@@ -5179,7 +5060,7 @@ All instructions with immediate 8-bit values</string>
       <p2 x="680" y="2740"/>
     </wire>
     <wire>
-      <p1 x="-300" y="880"/>
+      <p1 x="-300" y="620"/>
       <p2 x="-300" y="2460"/>
     </wire>
     <wire>
@@ -5371,11 +5252,7 @@ All instructions with immediate 8-bit values</string>
       <p2 x="740" y="980"/>
     </wire>
     <wire>
-      <p1 x="100" y="620"/>
-      <p2 x="100" y="880"/>
-    </wire>
-    <wire>
-      <p1 x="-360" y="620"/>
+      <p1 x="-360" y="700"/>
       <p2 x="-360" y="2540"/>
     </wire>
     <wire>
@@ -5385,10 +5262,6 @@ All instructions with immediate 8-bit values</string>
     <wire>
       <p1 x="360" y="2260"/>
       <p2 x="360" y="2340"/>
-    </wire>
-    <wire>
-      <p1 x="360" y="700"/>
-      <p2 x="360" y="1340"/>
     </wire>
     <wire>
       <p1 x="1260" y="-260"/>
@@ -5441,10 +5314,6 @@ All instructions with immediate 8-bit values</string>
     <wire>
       <p1 x="-120" y="1740"/>
       <p2 x="-120" y="1760"/>
-    </wire>
-    <wire>
-      <p1 x="-120" y="820"/>
-      <p2 x="-120" y="840"/>
     </wire>
     <wire>
       <p1 x="-120" y="2620"/>
