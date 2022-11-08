@@ -674,42 +674,6 @@ this is a standalone self-removing flag that makes LD/ST ops
       <pos x="-100" y="1520"/>
     </visualElement>
     <visualElement>
-      <elementName>Splitter</elementName>
-      <elementAttributes>
-        <entry>
-          <string>splitterSpreading</string>
-          <int>4</int>
-        </entry>
-        <entry>
-          <string>Input Splitting</string>
-          <string>1,1,1,1</string>
-        </entry>
-        <entry>
-          <string>Output Splitting</string>
-          <string>4</string>
-        </entry>
-      </elementAttributes>
-      <pos x="660" y="1260"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>prefix indicator</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>4</int>
-        </entry>
-      </elementAttributes>
-      <pos x="1620" y="-380"/>
-    </visualElement>
-    <visualElement>
       <elementName>Or</elementName>
       <elementAttributes>
         <entry>
@@ -884,10 +848,6 @@ this is a standalone self-removing flag that makes LD/ST ops
       <p2 x="-300" y="1280"/>
     </wire>
     <wire>
-      <p1 x="700" y="1280"/>
-      <p2 x="1620" y="1280"/>
-    </wire>
-    <wire>
       <p1 x="920" y="900"/>
       <p2 x="940" y="900"/>
     </wire>
@@ -926,10 +886,6 @@ this is a standalone self-removing flag that makes LD/ST ops
     <wire>
       <p1 x="-100" y="1420"/>
       <p2 x="-80" y="1420"/>
-    </wire>
-    <wire>
-      <p1 x="640" y="1420"/>
-      <p2 x="660" y="1420"/>
     </wire>
     <wire>
       <p1 x="520" y="140"/>
@@ -1024,10 +980,6 @@ this is a standalone self-removing flag that makes LD/ST ops
       <p2 x="-300" y="1440"/>
     </wire>
     <wire>
-      <p1 x="420" y="420"/>
-      <p2 x="480" y="420"/>
-    </wire>
-    <wire>
       <p1 x="760" y="420"/>
       <p2 x="880" y="420"/>
     </wire>
@@ -1068,12 +1020,8 @@ this is a standalone self-removing flag that makes LD/ST ops
       <p2 x="460" y="1320"/>
     </wire>
     <wire>
-      <p1 x="640" y="1320"/>
-      <p2 x="840" y="1320"/>
-    </wire>
-    <wire>
       <p1 x="460" y="1320"/>
-      <p2 x="640" y="1320"/>
+      <p2 x="840" y="1320"/>
     </wire>
     <wire>
       <p1 x="840" y="1320"/>
@@ -1145,10 +1093,6 @@ this is a standalone self-removing flag that makes LD/ST ops
     </wire>
     <wire>
       <p1 x="260" y="1460"/>
-      <p2 x="640" y="1460"/>
-    </wire>
-    <wire>
-      <p1 x="640" y="1460"/>
       <p2 x="800" y="1460"/>
     </wire>
     <wire>
@@ -1194,10 +1138,6 @@ this is a standalone self-removing flag that makes LD/ST ops
     <wire>
       <p1 x="-100" y="1340"/>
       <p2 x="-80" y="1340"/>
-    </wire>
-    <wire>
-      <p1 x="640" y="1340"/>
-      <p2 x="660" y="1340"/>
     </wire>
     <wire>
       <p1 x="560" y="960"/>
@@ -1325,15 +1265,11 @@ this is a standalone self-removing flag that makes LD/ST ops
     </wire>
     <wire>
       <p1 x="540" y="1240"/>
-      <p2 x="640" y="1240"/>
+      <p2 x="860" y="1240"/>
     </wire>
     <wire>
       <p1 x="980" y="1240"/>
       <p2 x="1040" y="1240"/>
-    </wire>
-    <wire>
-      <p1 x="640" y="1240"/>
-      <p2 x="860" y="1240"/>
     </wire>
     <wire>
       <p1 x="-500" y="1240"/>
@@ -1366,10 +1302,6 @@ this is a standalone self-removing flag that makes LD/ST ops
     <wire>
       <p1 x="-100" y="1500"/>
       <p2 x="-80" y="1500"/>
-    </wire>
-    <wire>
-      <p1 x="640" y="1500"/>
-      <p2 x="660" y="1500"/>
     </wire>
     <wire>
       <p1 x="920" y="480"/>
@@ -1448,14 +1380,6 @@ this is a standalone self-removing flag that makes LD/ST ops
       <p2 x="-80" y="1260"/>
     </wire>
     <wire>
-      <p1 x="640" y="1260"/>
-      <p2 x="660" y="1260"/>
-    </wire>
-    <wire>
-      <p1 x="680" y="1260"/>
-      <p2 x="700" y="1260"/>
-    </wire>
-    <wire>
       <p1 x="560" y="620"/>
       <p2 x="640" y="620"/>
     </wire>
@@ -1525,15 +1449,11 @@ this is a standalone self-removing flag that makes LD/ST ops
     </wire>
     <wire>
       <p1 x="360" y="1400"/>
-      <p2 x="640" y="1400"/>
+      <p2 x="820" y="1400"/>
     </wire>
     <wire>
       <p1 x="820" y="1400"/>
       <p2 x="920" y="1400"/>
-    </wire>
-    <wire>
-      <p1 x="640" y="1400"/>
-      <p2 x="820" y="1400"/>
     </wire>
     <wire>
       <p1 x="460" y="120"/>
@@ -1574,22 +1494,6 @@ this is a standalone self-removing flag that makes LD/ST ops
     <wire>
       <p1 x="640" y="540"/>
       <p2 x="640" y="620"/>
-    </wire>
-    <wire>
-      <p1 x="640" y="1460"/>
-      <p2 x="640" y="1500"/>
-    </wire>
-    <wire>
-      <p1 x="640" y="1400"/>
-      <p2 x="640" y="1420"/>
-    </wire>
-    <wire>
-      <p1 x="640" y="1320"/>
-      <p2 x="640" y="1340"/>
-    </wire>
-    <wire>
-      <p1 x="640" y="1240"/>
-      <p2 x="640" y="1260"/>
     </wire>
     <wire>
       <p1 x="900" y="420"/>
@@ -1730,10 +1634,6 @@ this is a standalone self-removing flag that makes LD/ST ops
     <wire>
       <p1 x="980" y="600"/>
       <p2 x="980" y="640"/>
-    </wire>
-    <wire>
-      <p1 x="1620" y="-380"/>
-      <p2 x="1620" y="1280"/>
     </wire>
     <wire>
       <p1 x="600" y="380"/>
@@ -1958,10 +1858,6 @@ this is a standalone self-removing flag that makes LD/ST ops
     <wire>
       <p1 x="700" y="80"/>
       <p2 x="700" y="660"/>
-    </wire>
-    <wire>
-      <p1 x="700" y="1260"/>
-      <p2 x="700" y="1280"/>
     </wire>
     <wire>
       <p1 x="700" y="660"/>

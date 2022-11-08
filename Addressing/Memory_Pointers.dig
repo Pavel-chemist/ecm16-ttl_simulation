@@ -16,12 +16,16 @@
       </awt-color>
     </entry>
     <entry>
+      <string>Label</string>
+      <string>MP</string>
+    </entry>
+    <entry>
       <string>Height</string>
       <int>10</int>
     </entry>
     <entry>
       <string>Width</string>
-      <int>10</int>
+      <int>12</int>
     </entry>
   </attributes>
   <visualElements>
@@ -63,6 +67,10 @@
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
           <string>Label</string>
           <string>LA34</string>
         </entry>
@@ -71,7 +79,7 @@
           <int>2</int>
         </entry>
       </elementAttributes>
-      <pos x="-60" y="200"/>
+      <pos x="120" y="-320"/>
     </visualElement>
     <visualElement>
       <elementName>74238.dig</elementName>
@@ -498,10 +506,6 @@
     <wire>
       <p1 x="920" y="200"/>
       <p2 x="940" y="200"/>
-    </wire>
-    <wire>
-      <p1 x="-60" y="200"/>
-      <p2 x="120" y="200"/>
     </wire>
     <wire>
       <p1 x="120" y="200"/>
@@ -1018,6 +1022,10 @@
     <wire>
       <p1 x="760" y="280"/>
       <p2 x="760" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="-320"/>
+      <p2 x="120" y="200"/>
     </wire>
     <wire>
       <p1 x="120" y="200"/>

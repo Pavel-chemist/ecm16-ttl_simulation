@@ -2625,24 +2625,6 @@ when interrupt, EINT is staggered with ALU op</string>
       <pos x="-400" y="-380"/>
     </visualElement>
     <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>Prefix_ind</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>4</int>
-        </entry>
-      </elementAttributes>
-      <pos x="1360" y="-1060"/>
-    </visualElement>
-    <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
@@ -5205,10 +5187,6 @@ Store PC</string>
     <wire>
       <p1 x="3920" y="640"/>
       <p2 x="3920" y="780"/>
-    </wire>
-    <wire>
-      <p1 x="1360" y="-1060"/>
-      <p2 x="1360" y="-980"/>
     </wire>
     <wire>
       <p1 x="980" y="660"/>
