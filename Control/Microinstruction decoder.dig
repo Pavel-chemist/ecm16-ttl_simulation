@@ -89,7 +89,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>14</int>
+          <int>16</int>
         </entry>
       </elementAttributes>
       <pos x="12160" y="2580"/>
@@ -345,7 +345,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>12</int>
+          <int>10</int>
         </entry>
       </elementAttributes>
       <pos x="12220" y="4940"/>
@@ -866,7 +866,7 @@
           <string>Jump state</string>
         </entry>
       </elementAttributes>
-      <pos x="7060" y="-460"/>
+      <pos x="7080" y="-460"/>
     </visualElement>
     <visualElement>
       <elementName>Decoder</elementName>
@@ -12798,74 +12798,6 @@ modified by sequencer</string>
       <pos x="5380" y="2860"/>
     </visualElement>
     <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-      </elementAttributes>
-      <pos x="7200" y="2600"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>textFontSize</string>
-          <int>36</int>
-        </entry>
-        <entry>
-          <string>Description</string>
-          <string>i0</string>
-        </entry>
-      </elementAttributes>
-      <pos x="7100" y="2620"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-      </elementAttributes>
-      <pos x="7240" y="2680"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>textFontSize</string>
-          <int>36</int>
-        </entry>
-        <entry>
-          <string>Description</string>
-          <string>i1</string>
-        </entry>
-      </elementAttributes>
-      <pos x="7140" y="2700"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Inputs</string>
-          <int>3</int>
-        </entry>
-      </elementAttributes>
-      <pos x="7120" y="0"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Inputs</string>
-          <int>3</int>
-        </entry>
-      </elementAttributes>
-      <pos x="7120" y="160"/>
-    </visualElement>
-    <visualElement>
       <elementName>Text</elementName>
       <elementAttributes>
         <entry>
@@ -12882,7 +12814,7 @@ modified by sequencer</string>
     <visualElement>
       <elementName>And</elementName>
       <elementAttributes/>
-      <pos x="7120" y="320"/>
+      <pos x="7200" y="320"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -12935,7 +12867,7 @@ modified by sequencer</string>
     <visualElement>
       <elementName>Not</elementName>
       <elementAttributes/>
-      <pos x="7120" y="400"/>
+      <pos x="7200" y="400"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -13662,62 +13594,9 @@ modified by sequencer</string>
       <pos x="7260" y="400"/>
     </visualElement>
     <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes/>
-      <pos x="7720" y="0"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes/>
-      <pos x="7720" y="160"/>
-    </visualElement>
-    <visualElement>
       <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-      </elementAttributes>
-      <pos x="7880" y="2600"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-      </elementAttributes>
-      <pos x="7920" y="2680"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>textFontSize</string>
-          <int>36</int>
-        </entry>
-        <entry>
-          <string>Description</string>
-          <string>i1</string>
-        </entry>
-      </elementAttributes>
-      <pos x="7820" y="2700"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>textFontSize</string>
-          <int>36</int>
-        </entry>
-        <entry>
-          <string>Description</string>
-          <string>i0</string>
-        </entry>
-      </elementAttributes>
-      <pos x="7780" y="2620"/>
+      <elementAttributes/>
+      <pos x="7700" y="2620"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -14546,51 +14425,8 @@ modified by sequencer</string>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-      </elementAttributes>
-      <pos x="7880" y="3640"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-      </elementAttributes>
-      <pos x="7920" y="3720"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>textFontSize</string>
-          <int>36</int>
-        </entry>
-        <entry>
-          <string>Description</string>
-          <string>i1</string>
-        </entry>
-      </elementAttributes>
-      <pos x="7820" y="3740"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>textFontSize</string>
-          <int>36</int>
-        </entry>
-        <entry>
-          <string>Description</string>
-          <string>i0</string>
-        </entry>
-      </elementAttributes>
-      <pos x="7780" y="3660"/>
+      <elementAttributes/>
+      <pos x="7700" y="3660"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -15426,58 +15262,6 @@ modified by sequencer</string>
       <elementName>Ground</elementName>
       <elementAttributes/>
       <pos x="1940" y="-220"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
-          <string>force PC be base of jump address</string>
-        </entry>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>JSR state</string>
-        </entry>
-      </elementAttributes>
-      <pos x="8860" y="-440"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Not</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-      </elementAttributes>
-      <pos x="7000" y="-140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-      </elementAttributes>
-      <pos x="7100" y="-220"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>textFontSize</string>
-          <int>60</int>
-        </entry>
-        <entry>
-          <string>Description</string>
-          <string>JSR</string>
-        </entry>
-      </elementAttributes>
-      <pos x="8820" y="-760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -16484,14 +16268,6 @@ modified by sequencer</string>
       <p2 x="6660" y="0"/>
     </wire>
     <wire>
-      <p1 x="7100" y="0"/>
-      <p2 x="7120" y="0"/>
-    </wire>
-    <wire>
-      <p1 x="7700" y="0"/>
-      <p2 x="7720" y="0"/>
-    </wire>
-    <wire>
       <p1 x="1060" y="0"/>
       <p2 x="1560" y="0"/>
     </wire>
@@ -16620,20 +16396,12 @@ modified by sequencer</string>
       <p2 x="6640" y="-20"/>
     </wire>
     <wire>
-      <p1 x="7100" y="-20"/>
-      <p2 x="7700" y="-20"/>
-    </wire>
-    <wire>
       <p1 x="6640" y="-20"/>
-      <p2 x="7100" y="-20"/>
+      <p2 x="12040" y="-20"/>
     </wire>
     <wire>
       <p1 x="-760" y="-20"/>
       <p2 x="460" y="-20"/>
-    </wire>
-    <wire>
-      <p1 x="7700" y="-20"/>
-      <p2 x="12040" y="-20"/>
     </wire>
     <wire>
       <p1 x="460" y="-20"/>
@@ -16662,18 +16430,6 @@ modified by sequencer</string>
     <wire>
       <p1 x="6720" y="20"/>
       <p2 x="6740" y="20"/>
-    </wire>
-    <wire>
-      <p1 x="7180" y="20"/>
-      <p2 x="7200" y="20"/>
-    </wire>
-    <wire>
-      <p1 x="7780" y="20"/>
-      <p2 x="7880" y="20"/>
-    </wire>
-    <wire>
-      <p1 x="7000" y="20"/>
-      <p2 x="7120" y="20"/>
     </wire>
     <wire>
       <p1 x="2280" y="20"/>
@@ -16796,14 +16552,6 @@ modified by sequencer</string>
       <p2 x="5520" y="2600"/>
     </wire>
     <wire>
-      <p1 x="7140" y="2600"/>
-      <p2 x="7160" y="2600"/>
-    </wire>
-    <wire>
-      <p1 x="7820" y="2600"/>
-      <p2 x="7840" y="2600"/>
-    </wire>
-    <wire>
       <p1 x="6680" y="2600"/>
       <p2 x="6700" y="2600"/>
     </wire>
@@ -16822,14 +16570,6 @@ modified by sequencer</string>
     <wire>
       <p1 x="6620" y="40"/>
       <p2 x="6660" y="40"/>
-    </wire>
-    <wire>
-      <p1 x="7080" y="40"/>
-      <p2 x="7120" y="40"/>
-    </wire>
-    <wire>
-      <p1 x="7680" y="40"/>
-      <p2 x="7720" y="40"/>
     </wire>
     <wire>
       <p1 x="920" y="40"/>
@@ -16936,10 +16676,6 @@ modified by sequencer</string>
       <p2 x="-740" y="1080"/>
     </wire>
     <wire>
-      <p1 x="7820" y="3640"/>
-      <p2 x="7840" y="3640"/>
-    </wire>
-    <wire>
       <p1 x="6680" y="3640"/>
       <p2 x="6700" y="3640"/>
     </wire>
@@ -16984,8 +16720,8 @@ modified by sequencer</string>
       <p2 x="6800" y="2620"/>
     </wire>
     <wire>
-      <p1 x="7920" y="2620"/>
-      <p2 x="7940" y="2620"/>
+      <p1 x="7680" y="2620"/>
+      <p2 x="7700" y="2620"/>
     </wire>
     <wire>
       <p1 x="1400" y="7740"/>
@@ -17104,6 +16840,10 @@ modified by sequencer</string>
       <p2 x="12120" y="1100"/>
     </wire>
     <wire>
+      <p1 x="7680" y="3660"/>
+      <p2 x="7700" y="3660"/>
+    </wire>
+    <wire>
       <p1 x="580" y="80"/>
       <p2 x="780" y="80"/>
     </wire>
@@ -17158,6 +16898,10 @@ modified by sequencer</string>
     <wire>
       <p1 x="9260" y="5200"/>
       <p2 x="9280" y="5200"/>
+    </wire>
+    <wire>
+      <p1 x="7760" y="2640"/>
+      <p2 x="7780" y="2640"/>
     </wire>
     <wire>
       <p1 x="620" y="1620"/>
@@ -17216,7 +16960,11 @@ modified by sequencer</string>
       <p2 x="12180" y="6240"/>
     </wire>
     <wire>
-      <p1 x="7860" y="2660"/>
+      <p1 x="7760" y="3680"/>
+      <p2 x="7780" y="3680"/>
+    </wire>
+    <wire>
+      <p1 x="7780" y="2660"/>
       <p2 x="12060" y="2660"/>
     </wire>
     <wire>
@@ -17240,12 +16988,8 @@ modified by sequencer</string>
       <p2 x="5620" y="2660"/>
     </wire>
     <wire>
-      <p1 x="7180" y="2660"/>
-      <p2 x="7820" y="2660"/>
-    </wire>
-    <wire>
       <p1 x="6720" y="2660"/>
-      <p2 x="7140" y="2660"/>
+      <p2 x="7700" y="2660"/>
     </wire>
     <wire>
       <p1 x="5620" y="2660"/>
@@ -17384,6 +17128,10 @@ modified by sequencer</string>
       <p2 x="11840" y="4720"/>
     </wire>
     <wire>
+      <p1 x="6720" y="3700"/>
+      <p2 x="7700" y="3700"/>
+    </wire>
+    <wire>
       <p1 x="-640" y="3700"/>
       <p2 x="820" y="3700"/>
     </wire>
@@ -17408,11 +17156,7 @@ modified by sequencer</string>
       <p2 x="6680" y="3700"/>
     </wire>
     <wire>
-      <p1 x="6720" y="3700"/>
-      <p2 x="7820" y="3700"/>
-    </wire>
-    <wire>
-      <p1 x="7860" y="3700"/>
+      <p1 x="7780" y="3700"/>
       <p2 x="12060" y="3700"/>
     </wire>
     <wire>
@@ -17470,14 +17214,6 @@ modified by sequencer</string>
     <wire>
       <p1 x="5540" y="2680"/>
       <p2 x="5560" y="2680"/>
-    </wire>
-    <wire>
-      <p1 x="7180" y="2680"/>
-      <p2 x="7200" y="2680"/>
-    </wire>
-    <wire>
-      <p1 x="7860" y="2680"/>
-      <p2 x="7880" y="2680"/>
     </wire>
     <wire>
       <p1 x="6720" y="2680"/>
@@ -17604,10 +17340,6 @@ modified by sequencer</string>
       <p2 x="6740" y="3720"/>
     </wire>
     <wire>
-      <p1 x="7860" y="3720"/>
-      <p2 x="7880" y="3720"/>
-    </wire>
-    <wire>
       <p1 x="5060" y="3720"/>
       <p2 x="5080" y="3720"/>
     </wire>
@@ -17640,15 +17372,7 @@ modified by sequencer</string>
       <p2 x="460" y="140"/>
     </wire>
     <wire>
-      <p1 x="7100" y="140"/>
-      <p2 x="7700" y="140"/>
-    </wire>
-    <wire>
       <p1 x="6640" y="140"/>
-      <p2 x="7100" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="7700" y="140"/>
       <p2 x="12080" y="140"/>
     </wire>
     <wire>
@@ -17742,14 +17466,6 @@ modified by sequencer</string>
     <wire>
       <p1 x="6640" y="160"/>
       <p2 x="6660" y="160"/>
-    </wire>
-    <wire>
-      <p1 x="7100" y="160"/>
-      <p2 x="7120" y="160"/>
-    </wire>
-    <wire>
-      <p1 x="7700" y="160"/>
-      <p2 x="7720" y="160"/>
     </wire>
     <wire>
       <p1 x="920" y="160"/>
@@ -17852,10 +17568,6 @@ modified by sequencer</string>
       <p2 x="-920" y="-180"/>
     </wire>
     <wire>
-      <p1 x="7900" y="2740"/>
-      <p2 x="12060" y="2740"/>
-    </wire>
-    <wire>
       <p1 x="1040" y="2740"/>
       <p2 x="2260" y="2740"/>
     </wire>
@@ -17876,12 +17588,8 @@ modified by sequencer</string>
       <p2 x="6720" y="2740"/>
     </wire>
     <wire>
-      <p1 x="7220" y="2740"/>
-      <p2 x="7860" y="2740"/>
-    </wire>
-    <wire>
       <p1 x="6760" y="2740"/>
-      <p2 x="7180" y="2740"/>
+      <p2 x="12060" y="2740"/>
     </wire>
     <wire>
       <p1 x="1340" y="180"/>
@@ -17902,18 +17610,6 @@ modified by sequencer</string>
     <wire>
       <p1 x="6720" y="180"/>
       <p2 x="6780" y="180"/>
-    </wire>
-    <wire>
-      <p1 x="7180" y="180"/>
-      <p2 x="7240" y="180"/>
-    </wire>
-    <wire>
-      <p1 x="7780" y="180"/>
-      <p2 x="7920" y="180"/>
-    </wire>
-    <wire>
-      <p1 x="7000" y="180"/>
-      <p2 x="7120" y="180"/>
     </wire>
     <wire>
       <p1 x="2320" y="180"/>
@@ -18005,10 +17701,6 @@ modified by sequencer</string>
     </wire>
     <wire>
       <p1 x="6760" y="3780"/>
-      <p2 x="7860" y="3780"/>
-    </wire>
-    <wire>
-      <p1 x="7900" y="3780"/>
       <p2 x="12060" y="3780"/>
     </wire>
     <wire>
@@ -18062,14 +17754,6 @@ modified by sequencer</string>
     <wire>
       <p1 x="6620" y="200"/>
       <p2 x="6660" y="200"/>
-    </wire>
-    <wire>
-      <p1 x="7080" y="200"/>
-      <p2 x="7120" y="200"/>
-    </wire>
-    <wire>
-      <p1 x="7680" y="200"/>
-      <p2 x="7720" y="200"/>
     </wire>
     <wire>
       <p1 x="3040" y="5320"/>
@@ -18190,10 +17874,6 @@ modified by sequencer</string>
     <wire>
       <p1 x="2240" y="2780"/>
       <p2 x="2380" y="2780"/>
-    </wire>
-    <wire>
-      <p1 x="7760" y="2780"/>
-      <p2 x="7880" y="2780"/>
     </wire>
     <wire>
       <p1 x="1560" y="5340"/>
@@ -18446,14 +18126,6 @@ modified by sequencer</string>
     <wire>
       <p1 x="3140" y="-260"/>
       <p2 x="4380" y="-260"/>
-    </wire>
-    <wire>
-      <p1 x="7000" y="-260"/>
-      <p2 x="7100" y="-260"/>
-    </wire>
-    <wire>
-      <p1 x="7100" y="-260"/>
-      <p2 x="8860" y="-260"/>
     </wire>
     <wire>
       <p1 x="3360" y="2820"/>
@@ -18713,10 +18385,10 @@ modified by sequencer</string>
     </wire>
     <wire>
       <p1 x="5380" y="300"/>
-      <p2 x="7100" y="300"/>
+      <p2 x="7180" y="300"/>
     </wire>
     <wire>
-      <p1 x="7100" y="300"/>
+      <p1 x="7180" y="300"/>
       <p2 x="12100" y="300"/>
     </wire>
     <wire>
@@ -18750,10 +18422,6 @@ modified by sequencer</string>
     <wire>
       <p1 x="6780" y="2860"/>
       <p2 x="6800" y="2860"/>
-    </wire>
-    <wire>
-      <p1 x="7920" y="2860"/>
-      <p2 x="7940" y="2860"/>
     </wire>
     <wire>
       <p1 x="7680" y="2860"/>
@@ -18868,8 +18536,8 @@ modified by sequencer</string>
       <p2 x="5400" y="320"/>
     </wire>
     <wire>
-      <p1 x="7100" y="320"/>
-      <p2 x="7120" y="320"/>
+      <p1 x="7180" y="320"/>
+      <p2 x="7200" y="320"/>
     </wire>
     <wire>
       <p1 x="680" y="8000"/>
@@ -19028,7 +18696,7 @@ modified by sequencer</string>
       <p2 x="5580" y="340"/>
     </wire>
     <wire>
-      <p1 x="7180" y="340"/>
+      <p1 x="7260" y="340"/>
       <p2 x="7380" y="340"/>
     </wire>
     <wire>
@@ -19161,7 +18829,7 @@ modified by sequencer</string>
     </wire>
     <wire>
       <p1 x="7080" y="360"/>
-      <p2 x="7120" y="360"/>
+      <p2 x="7200" y="360"/>
     </wire>
     <wire>
       <p1 x="5660" y="2920"/>
@@ -19352,11 +19020,11 @@ modified by sequencer</string>
       <p2 x="540" y="400"/>
     </wire>
     <wire>
-      <p1 x="7100" y="400"/>
-      <p2 x="7120" y="400"/>
+      <p1 x="7180" y="400"/>
+      <p2 x="7200" y="400"/>
     </wire>
     <wire>
-      <p1 x="7160" y="400"/>
+      <p1 x="7240" y="400"/>
       <p2 x="7260" y="400"/>
     </wire>
     <wire>
@@ -19844,10 +19512,6 @@ modified by sequencer</string>
       <p2 x="6740" y="2540"/>
     </wire>
     <wire>
-      <p1 x="7760" y="2540"/>
-      <p2 x="7880" y="2540"/>
-    </wire>
-    <wire>
       <p1 x="8500" y="5620"/>
       <p2 x="8520" y="5620"/>
     </wire>
@@ -19917,15 +19581,11 @@ modified by sequencer</string>
     </wire>
     <wire>
       <p1 x="7680" y="-460"/>
-      <p2 x="7680" y="40"/>
+      <p2 x="7680" y="2620"/>
     </wire>
     <wire>
-      <p1 x="7680" y="40"/>
-      <p2 x="7680" y="200"/>
-    </wire>
-    <wire>
-      <p1 x="7680" y="200"/>
-      <p2 x="7680" y="2860"/>
+      <p1 x="7680" y="3660"/>
+      <p2 x="7680" y="5120"/>
     </wire>
     <wire>
       <p1 x="7680" y="5120"/>
@@ -19936,12 +19596,16 @@ modified by sequencer</string>
       <p2 x="7680" y="5280"/>
     </wire>
     <wire>
+      <p1 x="7680" y="2620"/>
+      <p2 x="7680" y="2860"/>
+    </wire>
+    <wire>
       <p1 x="7680" y="2860"/>
       <p2 x="7680" y="3260"/>
     </wire>
     <wire>
       <p1 x="7680" y="3260"/>
-      <p2 x="7680" y="5120"/>
+      <p2 x="7680" y="3660"/>
     </wire>
     <wire>
       <p1 x="4100" y="1960"/>
@@ -20032,8 +19696,12 @@ modified by sequencer</string>
       <p2 x="4620" y="4400"/>
     </wire>
     <wire>
-      <p1 x="7180" y="2680"/>
-      <p2 x="7180" y="2740"/>
+      <p1 x="7180" y="300"/>
+      <p2 x="7180" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="7180" y="320"/>
+      <p2 x="7180" y="400"/>
     </wire>
     <wire>
       <p1 x="3600" y="1840"/>
@@ -20050,14 +19718,6 @@ modified by sequencer</string>
     <wire>
       <p1 x="2580" y="260"/>
       <p2 x="2580" y="4380"/>
-    </wire>
-    <wire>
-      <p1 x="7700" y="-20"/>
-      <p2 x="7700" y="0"/>
-    </wire>
-    <wire>
-      <p1 x="7700" y="140"/>
-      <p2 x="7700" y="160"/>
     </wire>
     <wire>
       <p1 x="10260" y="-760"/>
@@ -20118,10 +19778,6 @@ modified by sequencer</string>
     <wire>
       <p1 x="4640" y="1740"/>
       <p2 x="4640" y="1760"/>
-    </wire>
-    <wire>
-      <p1 x="7200" y="20"/>
-      <p2 x="7200" y="2600"/>
     </wire>
     <wire>
       <p1 x="1060" y="120"/>
@@ -20264,10 +19920,6 @@ modified by sequencer</string>
       <p2 x="3140" y="1920"/>
     </wire>
     <wire>
-      <p1 x="7240" y="180"/>
-      <p2 x="7240" y="2680"/>
-    </wire>
-    <wire>
       <p1 x="1100" y="6900"/>
       <p2 x="1100" y="7340"/>
     </wire>
@@ -20286,10 +19938,6 @@ modified by sequencer</string>
     <wire>
       <p1 x="80" y="8060"/>
       <p2 x="80" y="8100"/>
-    </wire>
-    <wire>
-      <p1 x="7760" y="2540"/>
-      <p2 x="7760" y="2780"/>
     </wire>
     <wire>
       <p1 x="1620" y="5280"/>
@@ -20358,6 +20006,14 @@ modified by sequencer</string>
     <wire>
       <p1 x="7780" y="5300"/>
       <p2 x="7780" y="5320"/>
+    </wire>
+    <wire>
+      <p1 x="7780" y="2640"/>
+      <p2 x="7780" y="2660"/>
+    </wire>
+    <wire>
+      <p1 x="7780" y="3680"/>
+      <p2 x="7780" y="3700"/>
     </wire>
     <wire>
       <p1 x="4200" y="4940"/>
@@ -20628,14 +20284,6 @@ modified by sequencer</string>
       <p2 x="3720" y="2020"/>
     </wire>
     <wire>
-      <p1 x="7820" y="3640"/>
-      <p2 x="7820" y="3700"/>
-    </wire>
-    <wire>
-      <p1 x="7820" y="2600"/>
-      <p2 x="7820" y="2660"/>
-    </wire>
-    <wire>
       <p1 x="10380" y="-780"/>
       <p2 x="10380" y="-500"/>
     </wire>
@@ -20690,10 +20338,6 @@ modified by sequencer</string>
     <wire>
       <p1 x="1180" y="8040"/>
       <p2 x="1180" y="8180"/>
-    </wire>
-    <wire>
-      <p1 x="8860" y="-440"/>
-      <p2 x="8860" y="-260"/>
     </wire>
     <wire>
       <p1 x="2720" y="200"/>
@@ -20812,14 +20456,6 @@ modified by sequencer</string>
       <p2 x="3760" y="4120"/>
     </wire>
     <wire>
-      <p1 x="7860" y="3720"/>
-      <p2 x="7860" y="3780"/>
-    </wire>
-    <wire>
-      <p1 x="7860" y="2680"/>
-      <p2 x="7860" y="2740"/>
-    </wire>
-    <wire>
       <p1 x="10420" y="-520"/>
       <p2 x="10420" y="-500"/>
     </wire>
@@ -20866,18 +20502,6 @@ modified by sequencer</string>
     <wire>
       <p1 x="-200" y="4500"/>
       <p2 x="-200" y="4520"/>
-    </wire>
-    <wire>
-      <p1 x="7880" y="2780"/>
-      <p2 x="7880" y="3640"/>
-    </wire>
-    <wire>
-      <p1 x="7880" y="20"/>
-      <p2 x="7880" y="2540"/>
-    </wire>
-    <wire>
-      <p1 x="7880" y="2540"/>
-      <p2 x="7880" y="2600"/>
     </wire>
     <wire>
       <p1 x="5840" y="1220"/>
@@ -21028,18 +20652,6 @@ modified by sequencer</string>
       <p2 x="3820" y="4060"/>
     </wire>
     <wire>
-      <p1 x="7920" y="2860"/>
-      <p2 x="7920" y="3720"/>
-    </wire>
-    <wire>
-      <p1 x="7920" y="180"/>
-      <p2 x="7920" y="2620"/>
-    </wire>
-    <wire>
-      <p1 x="7920" y="2620"/>
-      <p2 x="7920" y="2680"/>
-    </wire>
-    <wire>
       <p1 x="5360" y="2420"/>
       <p2 x="5360" y="2480"/>
     </wire>
@@ -21186,10 +20798,6 @@ modified by sequencer</string>
     <wire>
       <p1 x="5380" y="1260"/>
       <p2 x="5380" y="1280"/>
-    </wire>
-    <wire>
-      <p1 x="7940" y="2620"/>
-      <p2 x="7940" y="2860"/>
     </wire>
     <wire>
       <p1 x="10500" y="-800"/>
@@ -21460,18 +21068,6 @@ modified by sequencer</string>
       <p2 x="1880" y="6860"/>
     </wire>
     <wire>
-      <p1 x="7000" y="-100"/>
-      <p2 x="7000" y="20"/>
-    </wire>
-    <wire>
-      <p1 x="7000" y="-260"/>
-      <p2 x="7000" y="-140"/>
-    </wire>
-    <wire>
-      <p1 x="7000" y="20"/>
-      <p2 x="7000" y="180"/>
-    </wire>
-    <wire>
       <p1 x="860" y="3720"/>
       <p2 x="860" y="3780"/>
     </wire>
@@ -21676,10 +21272,6 @@ modified by sequencer</string>
       <p2 x="1940" y="-220"/>
     </wire>
     <wire>
-      <p1 x="7060" y="-460"/>
-      <p2 x="7060" y="-220"/>
-    </wire>
-    <wire>
       <p1 x="920" y="1620"/>
       <p2 x="920" y="3720"/>
     </wire>
@@ -21764,15 +21356,7 @@ modified by sequencer</string>
       <p2 x="10660" y="-500"/>
     </wire>
     <wire>
-      <p1 x="7080" y="-160"/>
-      <p2 x="7080" y="40"/>
-    </wire>
-    <wire>
-      <p1 x="7080" y="40"/>
-      <p2 x="7080" y="200"/>
-    </wire>
-    <wire>
-      <p1 x="7080" y="200"/>
+      <p1 x="7080" y="-460"/>
       <p2 x="7080" y="360"/>
     </wire>
     <wire>
@@ -21830,26 +21414,6 @@ modified by sequencer</string>
     <wire>
       <p1 x="5560" y="2540"/>
       <p2 x="5560" y="2600"/>
-    </wire>
-    <wire>
-      <p1 x="7100" y="-20"/>
-      <p2 x="7100" y="0"/>
-    </wire>
-    <wire>
-      <p1 x="7100" y="140"/>
-      <p2 x="7100" y="160"/>
-    </wire>
-    <wire>
-      <p1 x="7100" y="300"/>
-      <p2 x="7100" y="320"/>
-    </wire>
-    <wire>
-      <p1 x="7100" y="-260"/>
-      <p2 x="7100" y="-220"/>
-    </wire>
-    <wire>
-      <p1 x="7100" y="320"/>
-      <p2 x="7100" y="400"/>
     </wire>
     <wire>
       <p1 x="960" y="2600"/>
@@ -21994,10 +21558,6 @@ modified by sequencer</string>
     <wire>
       <p1 x="480" y="1380"/>
       <p2 x="480" y="1740"/>
-    </wire>
-    <wire>
-      <p1 x="7140" y="2600"/>
-      <p2 x="7140" y="2660"/>
     </wire>
     <wire>
       <p1 x="2020" y="520"/>
