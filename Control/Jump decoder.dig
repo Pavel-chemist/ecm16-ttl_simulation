@@ -170,7 +170,7 @@ bits b, 2w, 4w and 8w (4, 5, 6, 7) of Status Register</string>
           <string>C</string>
         </entry>
       </elementAttributes>
-      <pos x="260" y="740"/>
+      <pos x="260" y="1340"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -178,16 +178,6 @@ bits b, 2w, 4w and 8w (4, 5, 6, 7) of Status Register</string>
         <entry>
           <string>Description</string>
           <string>O</string>
-        </entry>
-      </elementAttributes>
-      <pos x="260" y="940"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
-          <string>N</string>
         </entry>
       </elementAttributes>
       <pos x="260" y="1140"/>
@@ -197,10 +187,20 @@ bits b, 2w, 4w and 8w (4, 5, 6, 7) of Status Register</string>
       <elementAttributes>
         <entry>
           <string>Description</string>
+          <string>N</string>
+        </entry>
+      </elementAttributes>
+      <pos x="260" y="960"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
           <string>Z</string>
         </entry>
       </elementAttributes>
-      <pos x="260" y="1340"/>
+      <pos x="260" y="740"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -210,7 +210,7 @@ bits b, 2w, 4w and 8w (4, 5, 6, 7) of Status Register</string>
           <string>C</string>
         </entry>
       </elementAttributes>
-      <pos x="260" y="1640"/>
+      <pos x="260" y="2240"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -220,7 +220,7 @@ bits b, 2w, 4w and 8w (4, 5, 6, 7) of Status Register</string>
           <string>O</string>
         </entry>
       </elementAttributes>
-      <pos x="260" y="1840"/>
+      <pos x="260" y="2040"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -230,7 +230,7 @@ bits b, 2w, 4w and 8w (4, 5, 6, 7) of Status Register</string>
           <string>N</string>
         </entry>
       </elementAttributes>
-      <pos x="260" y="2040"/>
+      <pos x="260" y="1840"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -240,7 +240,7 @@ bits b, 2w, 4w and 8w (4, 5, 6, 7) of Status Register</string>
           <string>Z</string>
         </entry>
       </elementAttributes>
-      <pos x="260" y="2240"/>
+      <pos x="260" y="1640"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -282,7 +282,7 @@ bits b, 2w, 4w and 8w (4, 5, 6, 7) of Status Register</string>
           <string>C</string>
         </entry>
       </elementAttributes>
-      <pos x="760" y="680"/>
+      <pos x="760" y="1280"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -296,7 +296,7 @@ bits b, 2w, 4w and 8w (4, 5, 6, 7) of Status Register</string>
           <string>O</string>
         </entry>
       </elementAttributes>
-      <pos x="760" y="880"/>
+      <pos x="760" y="1080"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -310,7 +310,7 @@ bits b, 2w, 4w and 8w (4, 5, 6, 7) of Status Register</string>
           <string>N</string>
         </entry>
       </elementAttributes>
-      <pos x="760" y="1080"/>
+      <pos x="760" y="880"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -324,7 +324,7 @@ bits b, 2w, 4w and 8w (4, 5, 6, 7) of Status Register</string>
           <string>Z</string>
         </entry>
       </elementAttributes>
-      <pos x="760" y="1280"/>
+      <pos x="760" y="680"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -338,7 +338,7 @@ bits b, 2w, 4w and 8w (4, 5, 6, 7) of Status Register</string>
           <string>NC</string>
         </entry>
       </elementAttributes>
-      <pos x="760" y="1580"/>
+      <pos x="760" y="2180"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -352,7 +352,7 @@ bits b, 2w, 4w and 8w (4, 5, 6, 7) of Status Register</string>
           <string>NO</string>
         </entry>
       </elementAttributes>
-      <pos x="760" y="1780"/>
+      <pos x="760" y="1980"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -366,7 +366,7 @@ bits b, 2w, 4w and 8w (4, 5, 6, 7) of Status Register</string>
           <string>NN</string>
         </entry>
       </elementAttributes>
-      <pos x="760" y="1980"/>
+      <pos x="760" y="1780"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -380,7 +380,7 @@ bits b, 2w, 4w and 8w (4, 5, 6, 7) of Status Register</string>
           <string>NZ</string>
         </entry>
       </elementAttributes>
-      <pos x="760" y="2180"/>
+      <pos x="760" y="1580"/>
     </visualElement>
     <visualElement>
       <elementName>Not</elementName>
@@ -576,6 +576,62 @@ bits b, 2w, 4w and 8w (4, 5, 6, 7) of Status Register</string>
       <elementName>Or</elementName>
       <elementAttributes/>
       <pos x="1380" y="1220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>20</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>c</string>
+        </entry>
+      </elementAttributes>
+      <pos x="200" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>20</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>o</string>
+        </entry>
+      </elementAttributes>
+      <pos x="200" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>20</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>n</string>
+        </entry>
+      </elementAttributes>
+      <pos x="200" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>20</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>z</string>
+        </entry>
+      </elementAttributes>
+      <pos x="200" y="260"/>
     </visualElement>
   </visualElements>
   <wires>
