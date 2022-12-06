@@ -1899,16 +1899,6 @@ when interrupt, EINT is staggered with ALU op</string>
       <pos x="1180" y="-840"/>
     </visualElement>
     <visualElement>
-      <elementName>Not</elementName>
-      <elementAttributes/>
-      <pos x="-340" y="-520"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes/>
-      <pos x="-260" y="-560"/>
-    </visualElement>
-    <visualElement>
       <elementName>D_FF_AS</elementName>
       <elementAttributes>
         <entry>
@@ -2552,16 +2542,6 @@ when interrupt, EINT is staggered with ALU op</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>clk stop</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-400" y="-520"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
           <string>prefix</string>
         </entry>
       </elementAttributes>
@@ -3101,14 +3081,6 @@ Store PC</string>
       <p2 x="440" y="-520"/>
     </wire>
     <wire>
-      <p1 x="-300" y="-520"/>
-      <p2 x="-260" y="-520"/>
-    </wire>
-    <wire>
-      <p1 x="-400" y="-520"/>
-      <p2 x="-340" y="-520"/>
-    </wire>
-    <wire>
       <p1 x="680" y="520"/>
       <p2 x="760" y="520"/>
     </wire>
@@ -3390,7 +3362,7 @@ Store PC</string>
     </wire>
     <wire>
       <p1 x="-400" y="-560"/>
-      <p2 x="-260" y="-560"/>
+      <p2 x="-200" y="-560"/>
     </wire>
     <wire>
       <p1 x="1560" y="560"/>
@@ -5339,6 +5311,10 @@ Store PC</string>
     <wire>
       <p1 x="1220" y="2760"/>
       <p2 x="1220" y="2780"/>
+    </wire>
+    <wire>
+      <p1 x="-200" y="-560"/>
+      <p2 x="-200" y="-540"/>
     </wire>
     <wire>
       <p1 x="200" y="-580"/>
