@@ -468,34 +468,6 @@
       <pos x="2620" y="1120"/>
     </visualElement>
     <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Value</string>
-          <long>-4</long>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="2440" y="1260"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Value</string>
-          <long>0</long>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="2440" y="1180"/>
-    </visualElement>
-    <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
@@ -507,7 +479,7 @@
           <string>S9</string>
         </entry>
       </elementAttributes>
-      <pos x="2480" y="1360"/>
+      <pos x="2400" y="1340"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -686,7 +658,7 @@
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[46]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[44]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -714,7 +686,7 @@
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[48]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[46]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -728,7 +700,7 @@
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[48]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[46]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -742,7 +714,7 @@
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[48]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[46]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -1400,44 +1372,7 @@
           <string>Byte</string>
         </entry>
       </elementAttributes>
-      <pos x="2300" y="1200"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Not</elementName>
-      <elementAttributes/>
-      <pos x="2340" y="1200"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Value</string>
-          <long>0</long>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>30</int>
-        </entry>
-      </elementAttributes>
-      <pos x="2360" y="1180"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Splitter</elementName>
-      <elementAttributes>
-        <entry>
-          <string>mirror</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Input Splitting</string>
-          <string>1,1,30</string>
-        </entry>
-        <entry>
-          <string>Output Splitting</string>
-          <string>32</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2400" y="1220"/>
+      <pos x="2400" y="1260"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -1477,7 +1412,7 @@ from interrupt controller</string>
         </entry>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[88]/elementAttributes/entry[2]/rotation"/>
+          <rotation reference="../../../../visualElement[86]/elementAttributes/entry[2]/rotation"/>
         </entry>
         <entry>
           <string>Label</string>
@@ -2835,7 +2770,7 @@ from interrupt controller</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[236]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[231]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -2863,7 +2798,7 @@ from interrupt controller</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[238]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[233]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -3191,7 +3126,7 @@ from interrupt controller</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[48]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[46]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -3205,7 +3140,7 @@ from interrupt controller</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[48]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[46]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -3229,7 +3164,7 @@ from interrupt controller</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[48]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[46]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -3277,7 +3212,7 @@ from interrupt controller</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[268]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[263]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -3315,7 +3250,7 @@ from interrupt controller</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[268]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[263]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -3845,80 +3780,6 @@ from interrupt controller</string>
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="2500" y="1380"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Driver</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-        <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="2580" y="1300"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Driver</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-        <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="2580" y="1260"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Driver</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-        <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="2580" y="1220"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Driver</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-        <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="2580" y="1180"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Decoder</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Selector Bits</string>
-          <int>2</int>
-        </entry>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
       <pos x="4360" y="1080"/>
     </visualElement>
     <visualElement>
@@ -4011,7 +3872,7 @@ from interrupt controller</string>
         </entry>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[88]/elementAttributes/entry[2]/rotation"/>
+          <rotation reference="../../../../visualElement[86]/elementAttributes/entry[2]/rotation"/>
         </entry>
         <entry>
           <string>Label</string>
@@ -4672,12 +4533,13 @@ from interrupt controller</string>
       </elementAttributes>
       <pos x="4320" y="1060"/>
     </visualElement>
+    <visualElement>
+      <elementName>Offset selector.dig</elementName>
+      <elementAttributes/>
+      <pos x="2420" y="1240"/>
+    </visualElement>
   </visualElements>
   <wires>
-    <wire>
-      <p1 x="2540" y="1280"/>
-      <p2 x="2580" y="1280"/>
-    </wire>
     <wire>
       <p1 x="1820" y="0"/>
       <p2 x="1980" y="0"/>
@@ -4916,10 +4778,10 @@ from interrupt controller</string>
     </wire>
     <wire>
       <p1 x="2080" y="1300"/>
-      <p2 x="2560" y="1300"/>
+      <p2 x="2420" y="1300"/>
     </wire>
     <wire>
-      <p1 x="2600" y="1300"/>
+      <p1 x="2540" y="1300"/>
       <p2 x="2620" y="1300"/>
     </wire>
     <wire>
@@ -4977,18 +4839,6 @@ from interrupt controller</string>
     <wire>
       <p1 x="3460" y="1180"/>
       <p2 x="3480" y="1180"/>
-    </wire>
-    <wire>
-      <p1 x="2440" y="1180"/>
-      <p2 x="2560" y="1180"/>
-    </wire>
-    <wire>
-      <p1 x="2360" y="1180"/>
-      <p2 x="2400" y="1180"/>
-    </wire>
-    <wire>
-      <p1 x="2600" y="1180"/>
-      <p2 x="2620" y="1180"/>
     </wire>
     <wire>
       <p1 x="2620" y="1180"/>
@@ -5095,10 +4945,6 @@ from interrupt controller</string>
       <p2 x="1980" y="-40"/>
     </wire>
     <wire>
-      <p1 x="2560" y="1320"/>
-      <p2 x="2580" y="1320"/>
-    </wire>
-    <wire>
       <p1 x="1380" y="-300"/>
       <p2 x="1540" y="-300"/>
     </wire>
@@ -5137,22 +4983,6 @@ from interrupt controller</string>
     <wire>
       <p1 x="3020" y="1200"/>
       <p2 x="3060" y="1200"/>
-    </wire>
-    <wire>
-      <p1 x="2500" y="1200"/>
-      <p2 x="2580" y="1200"/>
-    </wire>
-    <wire>
-      <p1 x="2300" y="1200"/>
-      <p2 x="2320" y="1200"/>
-    </wire>
-    <wire>
-      <p1 x="2380" y="1200"/>
-      <p2 x="2400" y="1200"/>
-    </wire>
-    <wire>
-      <p1 x="2320" y="1200"/>
-      <p2 x="2340" y="1200"/>
     </wire>
     <wire>
       <p1 x="1440" y="-180"/>
@@ -5307,6 +5137,10 @@ from interrupt controller</string>
       <p2 x="4380" y="60"/>
     </wire>
     <wire>
+      <p1 x="2400" y="1340"/>
+      <p2 x="2420" y="1340"/>
+    </wire>
+    <wire>
       <p1 x="3840" y="320"/>
       <p2 x="3860" y="320"/>
     </wire>
@@ -5353,18 +5187,6 @@ from interrupt controller</string>
     <wire>
       <p1 x="3200" y="1220"/>
       <p2 x="3220" y="1220"/>
-    </wire>
-    <wire>
-      <p1 x="2600" y="1220"/>
-      <p2 x="2620" y="1220"/>
-    </wire>
-    <wire>
-      <p1 x="2420" y="1220"/>
-      <p2 x="2560" y="1220"/>
-    </wire>
-    <wire>
-      <p1 x="2320" y="1220"/>
-      <p2 x="2400" y="1220"/>
     </wire>
     <wire>
       <p1 x="3840" y="1220"/>
@@ -5499,10 +5321,6 @@ from interrupt controller</string>
       <p2 x="1540" y="-80"/>
     </wire>
     <wire>
-      <p1 x="2480" y="1360"/>
-      <p2 x="2500" y="1360"/>
-    </wire>
-    <wire>
       <p1 x="1840" y="720"/>
       <p2 x="3180" y="720"/>
     </wire>
@@ -5557,10 +5375,6 @@ from interrupt controller</string>
     <wire>
       <p1 x="3020" y="1240"/>
       <p2 x="3040" y="1240"/>
-    </wire>
-    <wire>
-      <p1 x="2520" y="1240"/>
-      <p2 x="2580" y="1240"/>
     </wire>
     <wire>
       <p1 x="3040" y="1240"/>
@@ -5743,6 +5557,18 @@ from interrupt controller</string>
       <p2 x="3880" y="1000"/>
     </wire>
     <wire>
+      <p1 x="2400" y="1260"/>
+      <p2 x="2420" y="1260"/>
+    </wire>
+    <wire>
+      <p1 x="1940" y="1260"/>
+      <p2 x="2000" y="1260"/>
+    </wire>
+    <wire>
+      <p1 x="1780" y="1260"/>
+      <p2 x="1880" y="1260"/>
+    </wire>
+    <wire>
       <p1 x="1560" y="620"/>
       <p2 x="1760" y="620"/>
     </wire>
@@ -5781,22 +5607,6 @@ from interrupt controller</string>
     <wire>
       <p1 x="3580" y="620"/>
       <p2 x="3820" y="620"/>
-    </wire>
-    <wire>
-      <p1 x="1940" y="1260"/>
-      <p2 x="2000" y="1260"/>
-    </wire>
-    <wire>
-      <p1 x="1780" y="1260"/>
-      <p2 x="1880" y="1260"/>
-    </wire>
-    <wire>
-      <p1 x="2440" y="1260"/>
-      <p2 x="2560" y="1260"/>
-    </wire>
-    <wire>
-      <p1 x="2600" y="1260"/>
-      <p2 x="2620" y="1260"/>
     </wire>
     <wire>
       <p1 x="3300" y="240"/>
@@ -5987,10 +5797,6 @@ from interrupt controller</string>
       <p2 x="2560" y="1060"/>
     </wire>
     <wire>
-      <p1 x="2560" y="1320"/>
-      <p2 x="2560" y="1340"/>
-    </wire>
-    <wire>
       <p1 x="2560" y="1060"/>
       <p2 x="2560" y="1100"/>
     </wire>
@@ -6097,10 +5903,6 @@ from interrupt controller</string>
     <wire>
       <p1 x="3980" y="-440"/>
       <p2 x="3980" y="0"/>
-    </wire>
-    <wire>
-      <p1 x="2320" y="1200"/>
-      <p2 x="2320" y="1220"/>
     </wire>
     <wire>
       <p1 x="3600" y="40"/>
@@ -6376,14 +6178,6 @@ from interrupt controller</string>
     </wire>
     <wire>
       <p1 x="2620" y="1180"/>
-      <p2 x="2620" y="1220"/>
-    </wire>
-    <wire>
-      <p1 x="2620" y="1220"/>
-      <p2 x="2620" y="1260"/>
-    </wire>
-    <wire>
-      <p1 x="2620" y="1260"/>
       <p2 x="2620" y="1300"/>
     </wire>
     <wire>
@@ -6417,10 +6211,6 @@ from interrupt controller</string>
     <wire>
       <p1 x="1860" y="160"/>
       <p2 x="1860" y="760"/>
-    </wire>
-    <wire>
-      <p1 x="2500" y="1200"/>
-      <p2 x="2500" y="1340"/>
     </wire>
     <wire>
       <p1 x="4300" y="-440"/>
@@ -6481,10 +6271,6 @@ from interrupt controller</string>
     <wire>
       <p1 x="1880" y="180"/>
       <p2 x="1880" y="360"/>
-    </wire>
-    <wire>
-      <p1 x="2520" y="1240"/>
-      <p2 x="2520" y="1340"/>
     </wire>
     <wire>
       <p1 x="3420" y="40"/>
@@ -6577,10 +6363,6 @@ from interrupt controller</string>
     <wire>
       <p1 x="3820" y="800"/>
       <p2 x="3820" y="980"/>
-    </wire>
-    <wire>
-      <p1 x="2540" y="1280"/>
-      <p2 x="2540" y="1340"/>
     </wire>
     <wire>
       <p1 x="4080" y="-440"/>
