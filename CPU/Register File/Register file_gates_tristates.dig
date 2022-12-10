@@ -45,7 +45,7 @@
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="1760" y="1640"/>
+      <pos x="1760" y="1840"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -63,7 +63,7 @@
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="1380" y="1640"/>
+      <pos x="1380" y="1840"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -232,7 +232,7 @@
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="1860" y="1220"/>
+      <pos x="1860" y="1760"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -272,12 +272,12 @@
       <elementName>Multiplexer</elementName>
       <elementAttributes>
         <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>3</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
         </entry>
       </elementAttributes>
       <pos x="620" y="1460"/>
@@ -503,12 +503,12 @@
       <elementName>Driver</elementName>
       <elementAttributes>
         <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>16</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
         </entry>
       </elementAttributes>
       <pos x="1320" y="220"/>
@@ -709,16 +709,16 @@
       <elementName>Decoder</elementName>
       <elementAttributes>
         <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
           <string>Selector Bits</string>
           <int>3</int>
         </entry>
         <entry>
           <string>rotation</string>
           <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
         </entry>
       </elementAttributes>
       <pos x="1140" y="1360"/>
@@ -951,6 +951,48 @@
       </elementAttributes>
       <pos x="1320" y="1060"/>
     </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>RF_src1</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1860" y="1480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>RF_dest</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1860" y="1400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>RF_src2</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1860" y="1560"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -1100,6 +1142,10 @@
     <wire>
       <p1 x="-20" y="1560"/>
       <p2 x="1120" y="1560"/>
+    </wire>
+    <wire>
+      <p1 x="1120" y="1560"/>
+      <p2 x="1860" y="1560"/>
     </wire>
     <wire>
       <p1 x="920" y="1180"/>
@@ -1286,16 +1332,16 @@
       <p2 x="940" y="1220"/>
     </wire>
     <wire>
-      <p1 x="1760" y="1220"/>
-      <p2 x="1860" y="1220"/>
-    </wire>
-    <wire>
       <p1 x="480" y="580"/>
       <p2 x="800" y="580"/>
     </wire>
     <wire>
       <p1 x="660" y="1480"/>
       <p2 x="1520" y="1480"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="1480"/>
+      <p2 x="1860" y="1480"/>
     </wire>
     <wire>
       <p1 x="140" y="200"/>
@@ -1404,6 +1450,10 @@
     <wire>
       <p1 x="1280" y="220"/>
       <p2 x="1300" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="1760" y="1760"/>
+      <p2 x="1860" y="1760"/>
     </wire>
     <wire>
       <p1 x="920" y="480"/>
@@ -1518,6 +1568,10 @@
       <p2 x="1680" y="760"/>
     </wire>
     <wire>
+      <p1 x="460" y="1400"/>
+      <p2 x="1860" y="1400"/>
+    </wire>
+    <wire>
       <p1 x="800" y="380"/>
       <p2 x="940" y="380"/>
     </wire>
@@ -1599,6 +1653,10 @@
     </wire>
     <wire>
       <p1 x="460" y="720"/>
+      <p2 x="460" y="1400"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="1400"/>
       <p2 x="460" y="1460"/>
     </wire>
     <wire>
@@ -1662,6 +1720,10 @@
       <p2 x="1760" y="340"/>
     </wire>
     <wire>
+      <p1 x="1760" y="1760"/>
+      <p2 x="1760" y="1840"/>
+    </wire>
+    <wire>
       <p1 x="1760" y="760"/>
       <p2 x="1760" y="900"/>
     </wire>
@@ -1687,11 +1749,7 @@
     </wire>
     <wire>
       <p1 x="1760" y="1180"/>
-      <p2 x="1760" y="1220"/>
-    </wire>
-    <wire>
-      <p1 x="1760" y="1220"/>
-      <p2 x="1760" y="1640"/>
+      <p2 x="1760" y="1760"/>
     </wire>
     <wire>
       <p1 x="800" y="380"/>
@@ -1731,7 +1789,7 @@
     </wire>
     <wire>
       <p1 x="1380" y="1200"/>
-      <p2 x="1380" y="1640"/>
+      <p2 x="1380" y="1840"/>
     </wire>
     <wire>
       <p1 x="740" y="660"/>

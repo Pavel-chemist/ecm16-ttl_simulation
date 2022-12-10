@@ -79,7 +79,7 @@
       <elementAttributes>
         <entry>
           <string>Description</string>
-          <string>lowest 15 bits from address bus</string>
+          <string>lowest 14 bits from address bus</string>
         </entry>
         <entry>
           <string>Label</string>
